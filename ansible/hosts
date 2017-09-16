@@ -1,0 +1,2 @@
+[software]
+192.168.43.12	ansible_ssh_user=root	ansible_ssh_pass=root

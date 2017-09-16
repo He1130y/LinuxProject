@@ -1,0 +1,10 @@
+
+---
+- hosts: ssh
+  tasks:
+     - package:
+           name: openssh-clients
+           state: present
+     - service:
+           name: sshd
+           state: restarted

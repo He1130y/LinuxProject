@@ -1,0 +1,21 @@
+<form action='/scripts/docker.py/'>
+	<title>Docker Page</title>
+	<link type= 'text/css'  rel= 'stylesheet'  href= '/stylesheet/stylesheet.css' />
+	<h1>Docker Menu</h1>
+	<h3>Lists:</h3>
+	<div>
+	<a href='/scripts/imagelist.py'>Image List</a>
+	<br /><br />
+	<a href='/scripts/containerlist.py'>Container List</a>
+	</div>
+	<h3>Activity: </h3>
+	<div>
+	<input type='radio' name='activity' value='container'/>Launch a container
+	<br /><br/>
+	<input type='radio' name='activity' value='image'/>Create an image
+	<br /><br />
+	<input type='Submit'/><br /><br />
+	<a href='/mainmenu.html'>Home</a>
+	</div>
+
+</form>
